@@ -1,0 +1,20 @@
+body { background-color: black; 
+		 font-family: "Merriweather Sans","Arial",serif;
+		 }
+		h1 { background-color: black;
+			color: red;
+		}
+		#header {
+			color: black;}
+
+		h1 {border:3px dotted red;
+			background-color: ;
+			color: white;
+		}
+		.phone-number {
+			font-weight: bold;
+		}
+
+		.international {
+			font-style: italic;
+		}
