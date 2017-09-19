@@ -5,10 +5,12 @@ body { background-color: black;
 			color: red;
 		}
 		#header {
-			color: black;}
+			color: black;
+		}
+
 
 		h1 {border:3px dotted red;
-			background-color: ;
+			background-color: yellow ;
 			color: white;
 		}
 		.phone-number {
