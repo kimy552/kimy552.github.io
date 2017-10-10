@@ -21,8 +21,8 @@ for (var i = 0; i < 10; i = i + 1) {
     for (var j = 0; j < 10; j = j + 1) {
         console.log("Row " + i + ", Column " + j);
 
-        // The next line is the only JS you'll have to change.
-        if (j<5) {
+        
+        if (j < 5) {
             console.log("   pink");
             document.write("<div class='box pink'></div>");
         } else {
@@ -40,7 +40,7 @@ for (var i = 0; i < 10; i = i + 1) {
     for (var j = 0; j < 10; j = j + 1) {
         console.log("Row " + i + ", Column " + j);
 
-        // The next line is the only JS you'll have to change.
+
         if (j-i) {
             console.log("   pink");
             document.write("<div class='box pink'></div>");
@@ -55,12 +55,11 @@ for (var i = 0; i < 10; i = i + 1) {
 
 document.write('<br />');
 
-
 for (var i = 0; i < 10; i = i + 1) {
     for (var j = 0; j < 10; j = j + 1) {
         console.log("Row " + i + ", Column " + j);
 
-        // The next line is the only JS you'll have to change.
+
         if (i >= j) {
             console.log("   pink");
             document.write("<div class='box pink'></div>");
@@ -75,53 +74,12 @@ for (var i = 0; i < 10; i = i + 1) {
 
 document.write('<br />');
 
-
 for (var i = 0; i < 10; i = i + 1) {
     for (var j = 0; j < 10; j = j + 1) {
         console.log("Row " + i + ", Column " + j);
 
-        // The next line is the only JS you'll have to change.
-        if (i % -2) {
-            console.log("   pink");
-            document.write("<div class='box pink'></div>");
-        } else {
-            console.log("   turquoise");
-            document.write("<div class='box turquoise'></div>");
-        }
-    }
 
-    document.write('<br />');
-}
-
-document.write('<br />');
-
-
-for (var i = 0; i < 10; i = i + 1) {
-    for (var j = 0; j < 10; j = j + 1) {
-        console.log("Row " + i + ", Column " + j);
-
-        // The next line is the only JS you'll have to change.
-        if (i % -4) {
-            console.log("   pink");
-            document.write("<div class='box pink'></div>");
-        } else {
-            console.log("   turquoise");
-            document.write("<div class='box turquoise'></div>");
-        }
-    }
-
-    document.write('<br />');
-}
-
-document.write('<br />');
-
-
-for (var i = 0; i < 10; i = i + 1) {
-    for (var j = 0; j < 10; j = j + 1) {
-        console.log("Row " + i + ", Column " + j);
-
-        // The next line is the only JS you'll have to change.
-        if (i => j) {
+        if (i %-2) {
             console.log("   pink");
             document.write("<div class='box pink'></div>");
         } else {
@@ -139,8 +97,8 @@ for (var i = 0; i < 10; i = i + 1) {
     for (var j = 0; j < 10; j = j + 1) {
         console.log("Row " + i + ", Column " + j);
 
-        // The next line is the only JS you'll have to change.
-        if ( 6>i % i) {
+
+        if (j >= i) {
             console.log("   pink");
             document.write("<div class='box pink'></div>");
         } else {
@@ -154,3 +112,19 @@ for (var i = 0; i < 10; i = i + 1) {
 
 document.write('<br />');
 
+for (var i = 0; i < 10; i = i + 1) {
+    for (var j = 0; j < 10; j = j + 1) {
+        console.log("Row " + i + ", Column " + j);
+
+
+        if (j %+ 2) {
+            console.log("   pink");
+            document.write("<div class='box pink'></div>");
+        } else {
+            console.log("   turquoise");
+            document.write("<div class='box turquoise'></div>");
+        }
+    }
+
+    document.write('<br />');
+}
