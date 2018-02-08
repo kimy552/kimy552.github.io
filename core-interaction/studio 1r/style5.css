@@ -1,0 +1,54 @@
+#video2{
+  position: relative;
+  bottom: 800px;
+}
+#video3{
+position: relative;
+bottom: 1500px;
+right: -259px;
+}
+
+#video4{
+position: relative;
+bottom: 1900px;
+right: -359px;
+}
+
+body{
+  background-color: black;
+}
+a{
+  font-family: courier;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  bottom: 30px;
+  left: 600px;
+}
+#video5{
+  position: relative;
+  bottom: 2300px;
+  right: -600px;
+}
+#video6{
+  position: relative;
+  bottom: 2800px;
+  right: -500px;
+}
+#video7{
+  position: relative;
+  bottom: 3000px;
+  right: -1000px;
+}
+#video8{
+  position: relative;
+  bottom: 2900px;
+  right: -1100px;
+}
+h1{
+  font-family: courier;
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  text-shadow: lightblue 2px;
+  text-decoration-line: underline overline;

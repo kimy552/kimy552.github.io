@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+h1{
+  font-family: courier;
+  color: white;
+  text-align: center;
+  font-size: 60px
+  text-decoration-line: overline;
+}
+h2{
+  font-family: courier;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+a{
+  font-family: courier;
+  color: white;
+  font-size: 50px;
+  position: relative;
+  bottom: 100px;
+  left: 800px;
+}
+h4{
+  font-family: courier;
+  color: white;
+  text-align: center;
+}
