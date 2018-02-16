@@ -1,0 +1,19 @@
+img{
+  width: 40px;
+  float: left;
+}
+h1{
+  clear: both;
+}
+.pullquote{
+  width: 100px;
+  border: 1px solid; black;
+  float: left;
+  margin-right: 10px;
+  position: fixed;
+  right: 0;
+}
+.pullquote p{
+  font-style: italic;
+  font-size: 10px;
+}
