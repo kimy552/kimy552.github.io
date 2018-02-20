@@ -56,22 +56,24 @@ h2{
   font-family: 'Gilda Display', serif;
   margin: auto;
   position: absolute;
-  top: 700px;
-  left: 630px;
+  top: 842px;
+  left: 631px;
 }
 .header
 {
   font-family: 'Gilda Display', serif;
   text-align: center;
-  margin: 750px;
-
+  margin: auto;
+  position: absolute;
+  top: 900px;
+  left: 630px;
 }
 .first{
   font-family: 'Gilda Display', serif;
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 800px;
+  top: 950px;
   left: 630px;
 }
 .second{
@@ -79,7 +81,7 @@ h2{
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 850px;
+  top: 1000px;
   left: 630px;
 }
 .third{
@@ -87,7 +89,7 @@ h2{
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 900px;
+  top: 1050px;
   left: 630px;
 }
 .info {
