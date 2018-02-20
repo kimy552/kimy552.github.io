@@ -28,7 +28,7 @@ h2{
  flex: 1 0 10em;
  box-shadow: 0 0 30px #424242;
  overflow: hidden;
-padding: 1em;
+padding: 3em;
 color: white;
 transition: flex-basis 500ms ease-in-out;
 }
