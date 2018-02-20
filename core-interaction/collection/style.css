@@ -1,0 +1,101 @@
+ul {
+  display: inline-block;
+float: left;
+  text-align: left;
+}
+strong{
+  font-family: myriad;
+  font-size: 60px
+}
+li {
+  margin-top: 10px;
+  width: 20px;
+  height: 50px;
+  font-weight: bold;
+  list-style: none;
+  text-align: center;
+
+
+}
+
+p {
+    opacity: -10.150;
+    text-align: center;
+    font-size: 20px;
+}
+
+p:hover {
+    opacity: 7.0;
+
+}
+
+
+
+
+li:hover{
+  width: 200px;
+  text-shadow:1px 1px 0px white;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+strong:hover{
+  font-size:80px;
+  color: white;
+text-shadow:1px 1px 0px white, 0 0 1em black, 0 0 0.2em red;
+}
+body {
+background-image: image("ssssss.jpg");
+}
+
+
+.casual-1 { background-color:#ff0038; }
+.casual-2 { background-color:#fffff0; }
+.casual-3 { background-color:#008000; }
+.casual-4 { background-color:#00304f; }
+.casual-5 { background-color:white; }
+
+.modern-1 { background-color:#00A989; }
+.modern-2 { background-color:#0f52ba; }
+.modern-3 { background-color:#ffffff; }
+.modern-4 { background-color:#c0c0c0; }
+.modern-5 { background-color:#000000; }
+
+.romantic-1 { background-color:#f4c2c2; }
+.romantic-2 { background-color:#066ad7; }
+.romantic-3 { background-color:#d9d6bf; }
+.romantic-4 { background-color:#ffe4e1; }
+.romantic-5 { background-color: #CCD3D1; }
+
+.natural-1 { background-color:#f5f5dc; }
+.natural-2 { background-color:#c19a6b; }
+.natural-3 { background-color:#fffff0; }
+.natural-4 { background-color:#C3B091; }
+.natural-5 { background-color:#d4dbb2; }
+
+.elegant-1 { background-color:#b39283; }
+.elegant-2 { background-color:#a4d4d9; }
+.elegant-3 { background-color:#b9beaa; }
+.elegant-4 { background-color:#ffe4e1; }
+.elegant-5 { background-color:#c0c0c0; }
+
+.chic-1 { background-color:#55554d; }
+.chic-2 { background-color:#b0e0e6; }
+.chic-3 { background-color:#6a5acd; }
+.chic-4 { background-color:#c0c0c0; }
+.chic-5 { background-color:#A9A9A9; }
+
+.classic-1 { background-color:#670a0a; }
+.classic-2 { background-color:#593c1f; }
+.classic-3 { background-color:#a52a2a; }
+.classic-4 { background-color:#000000; }
+.classic-5 { background-color:#35063e; }
+
+
+
+
+.dandy-1 { background-color:#556b2f; }
+.dandy-2 { background-color:#6f4f28; }
+.dandy-3 { background-color:#002800; }
+.dandy-4 { background-color:#003153; }
+.dandy-5 { background-color:#393a3b; }

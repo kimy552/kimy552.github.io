@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
+* { box-sizing: border-box }
+html, body {
+  width: 100%;
+  height: 100%;
+}
+#main-menu .nav-bar { list-style:none; margin-top: 40px; }
+#main-menu .nav-bar li { display:inline; padding:0 10px; }
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #333;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+div {
+  float: left;
+  display: block;
+  color: #fff;
+  width: 20%;
+  height: 25%;
+  position: relative;
+  transition: opacity 0.5s ease;
+}
+div:hover {
+  opacity: 0.85;
+}
+p {
+  font-family: 'Carrois Gothic SC';
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+  padding-left: 0.5em;
+  margin-bottom: 0.3em;
+  text-transform: uppercase;
+  text-shadow: black 1px 0 10px;
+}
+.carmine { background: #ff0038; }
+.ivory { background: #ffffd7; }
+.green { background: #008000; }
+.darkblue { background: #00304f; }
+.white { background: #ffffff; }
+.peacockgreen { background: #00A989; }
+.sapphire { background: #0f52ba; }
+.silver { background: #c0c0c0; }
+.black { background: black; }
+.babypink  { background: #f4c2c2; }
+.horizonblue { background: #066ad7; }
+.palemist { background: #d9d6bf; }
+.cherryrose { background: #ffe4e1; }
+.pearlgrey { background: #CCD3D1; }
+.beige { background: #f5f5dc; }
+.camel { background: #c19a6b; }
+.khaki { background: #C3B091; }
+.mistgreen { background: #d4dbb2; }
+.pinkbeige { background: #b39283; }
+.paleblue { background: #a4d4d9; }
+.pigeon { background: #b9beaa; }
+.mistyrose { background: #ffe4e1; }
+.sendbeige { background: #C4C4B0; }
+.powderblue { background: #b0e0e6; }
+.slateblue { background: #6a5acd; }
+.mediumgrey { background: #A9A9A9; }
+.mahogany { background: #670a0a; }
+.coffeebrown { background: #593c1f; }
+.brown { background: #a52a2a; }
+.darkpurple { background: #35063e; }
+.darkolive { background: #556b2f; }
+.olivebrown { background: #6f4f28; }
+.darkgreen { background: #002800; }
+.prussianblue { background: #003153; }
+.charcoalgrey { background: #393a3b; }
