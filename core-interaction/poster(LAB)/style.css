@@ -49,7 +49,7 @@ h1{
    font-size: 45px;
    font-style: italic;
    line-height: 70px;
-   margin: 500px;
+   margin: 730px;
    animation: noise 1s linear infinite;
 }
 h2{
@@ -63,10 +63,8 @@ h2{
 {
   font-family: 'Gilda Display', serif;
   text-align: center;
-  margin: auto;
-  position: absolute;
-  top: 750px;
-  left: 630px;
+  margin: 750px;
+
 }
 .first{
   font-family: 'Gilda Display', serif;
