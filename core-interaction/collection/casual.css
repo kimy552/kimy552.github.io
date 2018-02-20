@@ -4,7 +4,8 @@ body {
 h2{
   text-shadow: black 1px 0 10px;
 }
-#main-menu .nav-bar { list-style:none; margin-top: 40px; }
+#main-menu .nav-bar { list-style:none; margin-top: 40px;
+font-size: 20px}
 #main-menu .nav-bar li { display:inline; padding:0 10px; }
 #main-menu .nav-bar li a {
   text-decoration: none;
@@ -63,7 +64,3 @@ flex-direction: row;
  .color {
    flex-shrink: 1;
 }
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
-
-@media (min-width: 600px) {
-  .color-list {
