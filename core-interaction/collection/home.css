@@ -1,16 +1,145 @@
-body {
-  font-family: sans-serif;
-  background: linear-gradient(450deg, #e05252 30%, #99e052 33%, #52e0e0 44%, #9952e0 75%, #e05252 81%);}
+html, body {
 
-#main-menu .nav-bar { list-style:none;
-  margin-top: 40px;
-font-size: 20px}
-#main-menu .nav-bar li { display:inline; padding:0 10px; }
+width: 100%;
+height: 100%;
+background-color: #d9d6bf;
+}
+#primary_nav_wrap
+{
+	margin-top:0px;
+  height: 32px;
+align-items: center;
 
-#main-menu .nav-bar li a {
-  text-decoration: none;
-  padding-left: 25px;
-  text-transform: uppercase;
-  color: #333;
-	text-shadow: 1px 1px 1px #ccc;
+}
+#primary_nav_wrap:hover
+{
+	margin-top:0px;
+  height: 250px;
+align-items: center;
+
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:center;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:16px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#f4c2c2;
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f5f5dc;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:inline-grid;
+
+}
+
+.text {
+  animation: inherit;
+}
+.background {
+  color: hsl(324, 70%, 45%);
+  animation: wheelHueColor 10s infinite;
+  background-color: currentColor;
+}
+h1{
+  font-size:6em;
+
+}
+@supports (background-blend-mode: overlay) {
+  .background {
+    background-image: linear-gradient(60deg, white 10%, black 90%);
+    background-blend-mode: screen;
+  }
+}
+@keyframes wheelHueColor {
+  from, to { color: #ff0038; }
+  10%      { color: #ffffd7; }
+  15%      { color: #d9d6bf; }
+  20%      { color: #008000; }
+  25%      { color: #ffe4e1; }
+  30%      { color: #00304f; }
+  35%      { color: #ccd3d1; }
+  40%      { color: #00a989; }
+  45%      { color: #f5f5dc; }
+  50%      { color: #0f52ba; }
+  60%      { color: #c0c0c0; }
+  70%      { color: #f4c2c2; }
+  80%      { color: #000000; }
+  90%      { color: #066ad7; }
+}
+
+
+
+* { margin: 0; padding: 0; }
+.background {
+  min-height: 100vh;
+  display: flex;
+}
+.text {
+  margin: auto;
+  height: 107px;
+  background: rgba(0,0,0, 40);
+  padding: 0em;
+  font-family: Helvetica;
+  text-align: center;
 }
