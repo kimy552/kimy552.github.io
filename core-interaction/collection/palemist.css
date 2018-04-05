@@ -33,7 +33,7 @@ align-items: center;
 {
 	display:block;
 	color:#333;
-	text-decoration:none;
+	text-decoration-line: none;
 	font-weight:700;
 	font-size:16px;
 	line-height:32px;

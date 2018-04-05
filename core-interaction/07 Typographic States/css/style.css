@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+body {
+  padding: 20px;
+  color: #2e2e2e;
+  background-color: black;
+
+}
+.somethig
+{
+  animation: animate 5s linear infinite;
+}
+.is
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 1s;
+}
+.in
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 2s;
+}
+.the
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 3s;
+}
+.air
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 4s;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: rotate(10deg) translateY(20px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+  100%
+  {
+    transform: rotate(45deg) translateY(-200px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+}
+
+p {
+  font-family:'Special Elite', cursive;
+
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1.6;
+  text-decoration: none;
+  width: 100%;
+  max-width: 100%;
+  letter-spacing: 0;
+  word-spacing: 0;
+  text-indent: 0;
+
+
+}
+
+p::first-line {
+
+
+}
+
+p::first-letter {
+
+}
+
+.variation-1 {
+  overflow: hidden;
+  color: white;
+  font-size: 4rem;
+  transform: rotateX(2deg) rotateY(3deg) rotateZ(10deg);
+  transition: all .5s;
+  opacity:0;
+
+}
+.variation-1:hover{
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: all,3s;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  opacity:20;
+animation:
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+.variation-2 {
+  color: blue;
+  font-size: 3rem;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: all .5s;
+}
+.variation-2:hover{
+  transform: rotateX(6deg) rotateY(1deg) rotateZ(-10deg);
+  transition: all .5s;
+
+
+}
+
+.variation-3 {
+  color: white;
+  font-size: 4rem;
+}
+
+.variation-1::first-line {
+    font-size: 6rem;
+
+}
+
+.variation-1::first-letter {
+
+}
+
+.variation-2::first-line {
+
+}
+
+.variation-2::first-letter {
+
+}
+
+.variation-3::first-line {
+
+}
+
+.variation-3::first-letter {
+
+}

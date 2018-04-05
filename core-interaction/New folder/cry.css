@@ -1,0 +1,123 @@
+
+*, *:before, *:after{
+  box-sizing:border-box;
+}
+body{
+  font-family: impact;
+  background-color: black;
+}
+.next{
+
+  position: absolute;
+  right: 20%;
+  top: 200px;
+
+}
+.next2{
+  transform:scaleX(-1);
+  position: absolute;
+  left: 20%;
+  top: 200px;
+
+}
+div.open{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.letter{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 12em;
+  margin: 0.2em;
+  margin-top: .5em;
+  position: relative;
+  color: #00B4F1;
+  transform-style: preserve-3d;
+  perspective: 400;
+  z-index: 1;
+
+
+
+}
+.letter:before, .letter:after{
+  position:absolute;
+  content: attr(data-letter);
+  transform-origin: top left;
+  top:0;
+  left:0;
+}
+.letter, .letter:before, .letter:after{
+  transition: all 0.3s ease-in-out;
+}
+.letter:before{
+  color: #fff;
+  text-shadow:
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg);
+}
+.letter:after{
+  color: rgba(0,0,0,.11);
+  z-index:2;
+  transform:
+    scale(0.9,1)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg)
+    skew(0deg,1deg);
+}
+.letter:hover:before{
+  color: white;
+  transform:
+    rotateX(10deg)
+    rotateY(-80deg)
+    rotateZ(0deg);
+}
+.letter:hover:after{
+
+    transform: rotateX(32deg) rotateY(20deg) rotateZ(-3deg);
+
+
+
+    -webkit-animation: anim 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count:infinite;
+
+    animation: anim 3s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+  }
+
+  @-webkit-keyframes anim {
+      0%{text-shadow:-3px 4px 0px red;}
+      10% {text-shadow:1px -6px 0px green;}
+      20% {text-shadow:-4px 4px 0px blue;}
+      30% {text-shadow:2px -6px 0px yellow;}
+      40% {text-shadow:-3px 4px 0px orange;}
+      50% {text-shadow:1px 5px 0px purple;}
+      60% {text-shadow:-3px 4px 0px brown;}
+      70% {text-shadow:10px 7px 0px pink;}
+      80% {text-shadow:-9px -4px 0px lime;}
+      90% {text-shadow:4px -6px 0px cyan;}
+      100% {text-shadow:-9px 4px 0px teal;}
+  }
+
+  @keyframes anim {
+      0%{text-shadow:-6px 4px 0px red;}
+      10% {text-shadow:4px -6px 0px green;}
+      20% {text-shadow:-9px 4px 0px blue;}
+      30% {text-shadow:4px -6px 0px yellow;}
+      40% {text-shadow:-8px 4px 0px orange;}
+      50% {text-shadow:4px 5px 0px purple;}
+      60% {text-shadow:-6px 4px 0px brown;}
+      70% {text-shadow:4px 7px 0px pink;}
+      80% {text-shadow:-9px -4px 0px lime;}
+      90% {text-shadow:4px -6px 0px cyan;}
+      100% {text-shadow:-9px 4px 0px teal;}
+  }
+}

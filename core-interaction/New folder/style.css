@@ -1,0 +1,100 @@
+body
+{
+  font-family: 'Covered By Your Grace', cursive;
+  margin: 0;
+  padding: 0;
+  background:url('nikesketch.jpg');
+  background-size: contain;
+
+
+
+
+}
+.center
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  letter-spacing: 4rem;
+}
+
+ul li
+{
+  margin: 10px;
+  list-style: none;
+  color: yellow;
+font-family: 'Vollkorn', serif;
+  font-size: 10em;
+  word-spacing: 4rem;
+  filter: blur(1px);
+  text-shadow: #FC0 1px 0 10px;
+}
+
+
+@keyframes animate
+{
+  0%
+  {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+  100%
+  {
+    transform: rotate(45deg) translateY(-100px);
+    opacity: 5;
+    filter: blur(20px);
+  }
+}
+.air
+{
+  font-family: 'Vollkorn', serif;
+  font-size: 10rem;
+  text-align: center;
+
+
+
+}
+.air:hover{
+
+  transform: rotateX(10deg) rotateY(0deg) rotateZ(0deg);
+  transition: all,5s;
+  overflow: hidden;
+  text-shadow: black 10px 0 20px;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 10rem;
+  font-size: 40rem;
+  color: red;
+    font-weight: bold;
+  opacity:20;
+animation:
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.next{
+
+  position: absolute;
+  right: 20%;
+  top: 200px;
+
+}
+.next2{
+  transform:scaleX(-1);
+  position: absolute;
+  left: 20%;
+  top: 200px;
+
+}

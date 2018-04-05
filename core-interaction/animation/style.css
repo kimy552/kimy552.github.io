@@ -1,0 +1,38 @@
+#bike{
+  position: absolute;
+  width: 300px;
+}
+
+.wheel{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: black;
+  position: absolute;
+  top: 40px;
+  animation: spin 1s infinite ease
+}
+
+.frame{
+  width: 300px;
+  height: 20px;
+  background-color:red;
+  position: absolute;
+
+}
+.right{
+  right: 0;
+  width: 110px;
+}
+.left{
+  height: 110px;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}

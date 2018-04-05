@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image:url('smoke.gif'); background-repeat:repeat;
+  background-size: cover;
+}
+
+body {
+  padding: 20px;
+
+  background-color: black;
+
+}
+
+ul
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ul,li {
+
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  margin-top:10%;
+
+  letter-spacing: .30em;
+  opacity:20;
+  color: red;
+
+}
+#mood{
+    font-size: 20em;
+    color: white;
+    margin-top: 30%;
+    text-align: center;
+    text-shadow: red 1px 0 10px;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+  100%
+  {
+    transform: rotate(0deg) translateY(-100px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+}
+
+}
+.m
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 2s;
+}
+.o
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 2s;
+}
+.o
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 2s;
+}
+.d
+{
+  animation: animate 5s linear infinite;
+  animation-delay: 2s;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+  100%
+  {
+    transform: rotate(0deg) translateY(-200px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+}
+.refresh{
+  position: absolute;
+  left: 50%;
+  top: 200px;
+}
+
+.next{
+
+  position: absolute;
+  right: 20%;
+  top: 200px;
+
+}
+.next2{
+  transform:scaleX(-1);
+  position: absolute;
+  left: 20%;
+  top: 200px;
+
+}

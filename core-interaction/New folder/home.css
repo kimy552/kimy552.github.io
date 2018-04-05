@@ -1,0 +1,82 @@
+
+body{
+
+  background: black;
+}
+
+h2
+{
+  color:black;
+text-align: center;
+
+
+  font-family: impact;
+  font-size:30em;
+  line-height:1;
+  margin:0;
+  padding:0;
+
+  -webkit-transform: rotateX(0deg) rotateY(10deg) rotateZ(-3deg);
+  transform: rotateX(0deg) rotateY(20deg) rotateZ(-3deg);
+
+  position:relative;
+
+  top:1em;
+
+
+  -webkit-animation: anim 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count:infinite;
+
+  animation: anim 3s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes anim {
+    0%{text-shadow:-6px 4px 0px red;}
+    10% {text-shadow:4px -6px 0px green;}
+    20% {text-shadow:-9px 4px 0px blue;}
+    30% {text-shadow:1px -3px 0px yellow;}
+    40% {text-shadow:-8px 2px 0px orange;}
+    50% {text-shadow:4px 0px 0px purple;}
+    60% {text-shadow:-6px 11px 0px brown;}
+    70% {text-shadow:4px 2px 0px pink;}
+    80% {text-shadow:-9px -4px 0px lime;}
+    90% {text-shadow:4px -2px 0px cyan;}
+    100% {text-shadow:-1px 4px 0px teal;}
+}
+
+@keyframes anim {
+    0%{text-shadow:-6px 4px 0px red;}
+    10% {text-shadow:4px -6px 0px green;}
+    20% {text-shadow:-9px 4px 0px blue;}
+    30% {text-shadow:4px -6px 0px yellow;}
+    40% {text-shadow:-8px 4px 0px orange;}
+    50% {text-shadow:4px 5px 0px purple;}
+    60% {text-shadow:-6px 4px 0px brown;}
+    70% {text-shadow:4px 7px 0px pink;}
+    80% {text-shadow:-9px -4px 0px lime;}
+    90% {text-shadow:4px -6px 0px cyan;}
+    100% {text-shadow:-9px 4px 0px teal;}
+}
+.refresh{
+  position: absolute;
+  left: 50%;
+  top: 200px;
+}
+
+.next{
+
+  position: absolute;
+  right: 20%;
+  top: 200px;
+
+}
+.next2{
+  transform:scaleX(-1);
+  position: absolute;
+  left: 20%;
+  top: 200px;
+
+}

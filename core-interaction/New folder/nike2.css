@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image:url('smoke.gif'); background-repeat:repeat;
+  background-size: cover;
+}
+
+body {
+  padding: 20px;
+
+  background-color: black;
+
+}
+
+
+p {
+
+  line-height: 1.6;
+  text-decoration: none;
+  width: 100%;
+  max-width: 100%;
+  letter-spacing: 0;
+  word-spacing: 0;
+  text-indent: 0;
+  text-align: center;
+
+
+}
+
+
+p::first-line {
+
+
+}
+
+p::first-letter {
+
+}
+
+.variation-1 {
+  overflow: hidden;
+  color: white;
+  font-size: 5em;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: all .5s;
+position: absolute;
+top: 50%;
+letter-spacing: 0rem;
+
+}
+.variation-1:hover{
+  text-shadow: 1px 1px 2px red, 0 0 1em pink, 0 0 0.2em yellow;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: all,8s;
+  overflow: hidden;
+
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .20em;
+  opacity:20;
+  color: red;
+}
+
+
+.next{
+  
+  position: absolute;
+  right: 20%;
+  top: 200px;
+
+}
+.next2{
+  transform:scaleX(-1);
+  position: absolute;
+  left: 20%;
+  top: 200px;
+
+}
